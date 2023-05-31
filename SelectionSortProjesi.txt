@@ -1,0 +1,13 @@
+[22,27,16,2,18,6] --> burada ilk yere gelecek en küçük eleman bulunur
+[2,22,27,16,18,6] --> sonra artık 2.yere gelecek en küçük elemanı bulmak için n-1 şeklinde taranır
+[2,6,22,27,16,18] 
+[2,6,16,22,27,18]
+[2,6,16,18,22,27] --> en son olarak n=1 kalana kadar işlem devam eder. Big O(n^2) 
+
+* 18 sayısı Average case kapsamına girer.
+[7,3,5,8,2,9,4,15,6] ilk 4 adımı aşağıdadır:
+
+[2,7,3,5,8,9,4,15,6]
+[2,3,7,5,8,9,4,15,6]
+[2,3,4,7,5,8,9,15,6]
+[2,3,4,5,7,8,9,15,6]
